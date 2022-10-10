@@ -1,3 +1,12 @@
+テンプレート
+
+\begin{wrapfigure}{position}[overhang]{width}
+  \centering
+ \includegraphics[width=5cm]{figure.jpg}
+ \caption{caption}
+\end{wrapfigure}
+
+
 図のまわりに文章をまわりこませるにはwrapfig環境を用いる。以下は図を左側、文章を右側に配置した例となる。
 
 \begin{wrapfigure}{l}[0pt]{0.5\textwidth}
@@ -17,3 +26,5 @@
 & &\frac{dx}{dt}\quad (italic) \\
 & &\frac{\dfd x}{\dfd t}\quad (roman)
 \end{eqnarray}
+
+逆にpositionをlにすることで図が左、文章が右になるように回り込ませている。
